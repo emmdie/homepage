@@ -160,6 +160,14 @@ video {
   height: auto;
 }
 
+.avatar {
+  width: 8rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  image-rendering: pixelated;
+}
+
 .tagline {
   margin: 0 0.5rem 2rem 0;
   padding: 1rem 1.25rem;
