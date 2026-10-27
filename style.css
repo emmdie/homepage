@@ -118,6 +118,13 @@ h2 {
   border-bottom: 2px solid var(--line);
 }
 
+section > h3 {
+  margin-top: 1.75rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .label {
   margin: 2rem 0 0;
   padding: 0;
@@ -160,9 +167,21 @@ video {
   height: auto;
 }
 
-.avatar {
-  width: 8rem;
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.intro h1 {
+  min-width: 0;
+  margin: 0;
+}
+
+.avatar {
+  flex: none;
+  width: 4.5rem;
   border: 2px solid var(--line);
   border-radius: 50%;
   image-rendering: pixelated;
@@ -297,6 +316,14 @@ footer ul {
     display: flex;
     width: min(100% - 2 * var(--gutter), var(--measure));
     margin-inline: auto;
+  }
+
+  .intro {
+    gap: 1.5rem;
+  }
+
+  .avatar {
+    width: 8rem;
   }
 
   nav a {
